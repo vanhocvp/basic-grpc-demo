@@ -1,3 +1,0 @@
-[submodule "protos-submodule"]
-	path = protos-submodule
-	url = https://github.com/vanhocvp/proto-management-struct

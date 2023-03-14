@@ -15,7 +15,7 @@ git remote add -f origin $repo_url
 git config core.sparseCheckout true
 
 # Thêm các đường dẫn mới vào sparse checkout
-echo "calculator" >> .git/info/sparse-checkout
+echo "proto/calculator" >> .git/info/sparse-checkout
 
 # git read-tree -mu HEAD
 # Pull repo
