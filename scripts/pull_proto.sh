@@ -4,7 +4,7 @@
 repo_url=https://github.com/vanhocvp/proto-management-struct.git
 
 # Khai báo biến repo_name chứa tên của repo đã được clone về trước đó
-repo_name=protos-git-test
+repo_name=protos
 
 # Cấu hình sparse checkout và chỉ định các thư mục cần pull
 rm -rf $repo_name

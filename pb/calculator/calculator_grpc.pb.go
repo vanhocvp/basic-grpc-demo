@@ -2,7 +2,7 @@
 // versions:
 // - protoc-gen-go-grpc v1.2.0
 // - protoc             v3.12.4
-// source: protos-git-test/proto/calculator/calculator.proto
+// source: protos/proto/calculator/calculator.proto
 
 package calculator
 
@@ -101,5 +101,5 @@ var Calculator_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "protos-git-test/proto/calculator/calculator.proto",
+	Metadata: "protos/proto/calculator/calculator.proto",
 }
