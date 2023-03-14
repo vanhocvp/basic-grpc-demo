@@ -7,7 +7,7 @@ repo_url=https://github.com/vanhocvp/proto-management-struct.git
 repo_name=protos-git-test
 
 # Cấu hình sparse checkout và chỉ định các thư mục cần pull
-# rm -rf $repo_name
+rm -rf $repo_name
 mkdir -p $repo_name
 cd $repo_name
 git init
@@ -17,8 +17,8 @@ git config core.sparseCheckout true
 # Thêm các đường dẫn mới vào sparse checkout
 echo "calculator" >> .git/info/sparse-checkout
 
-git read-tree -mu HEAD
+# git read-tree -mu HEAD
 # Pull repo
 git pull origin master
 
-# rm -rf .git
+rm -rf .git
